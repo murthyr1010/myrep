@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MyTest">
+
+<listeners>
+	<listener class-name="testng_listeners.CustomListener" />	
+</listeners>
+
+<test name="Listener Test">
+	<classes>
+		<class name="testng_listeners.LoginTest"/>
+    </classes>
+</test>
+
+
+
+
+</suite>

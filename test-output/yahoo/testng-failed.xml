@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [yahoo]">
+  <test name="Yahoo Test(failed)">
+    <classes>
+      <class name="test.YahooTest">
+        <methods>
+          <include name="initilizeSelenium"/>
+          <include name="openBrowser"/>
+          <include name="testRecieveMail"/>
+          <include name="closeBroser"/>
+          <include name="shutdownSelenium"/>
+          <include name="disconnectToDB"/>
+          <include name="connectToDB"/>
+        </methods>
+      </class> <!-- test.YahooTest -->
+      <class name="test.YahooNewsTest">
+        <methods>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- test.YahooNewsTest -->
+    </classes>
+  </test> <!-- Yahoo Test(failed) -->
+  <test name="Yahoo News Test(failed)">
+    <classes>
+      <class name="test.YahooTest">
+        <methods>
+          <include name="initilizeSelenium"/>
+          <include name="openBrowser"/>
+          <include name="closeBroser"/>
+          <include name="shutdownSelenium"/>
+          <include name="disconnectToDB"/>
+          <include name="connectToDB"/>
+        </methods>
+      </class> <!-- test.YahooTest -->
+      <class name="test.YahooNewsTest">
+        <methods>
+          <include name="testNews"/>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- test.YahooNewsTest -->
+    </classes>
+  </test> <!-- Yahoo News Test(failed) -->
+</suite> <!-- Failed suite [yahoo] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTest]">
+  <listeners>
+    <listener class-name="testng_listeners.CustomListener"/>
+  </listeners>
+  <test name="Listener Test(failed)">
+    <classes>
+      <class name="testng_listeners.LoginTest">
+        <methods>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- testng_listeners.LoginTest -->
+    </classes>
+  </test> <!-- Listener Test(failed) -->
+</suite> <!-- Failed suite [MyTest] -->

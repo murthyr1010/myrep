@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="yahoo">
+
+<test name="Yahoo Test">
+	<classes>
+		<class name="test.YahooTest"/>
+    </classes>
+</test>
+
+
+<test name="Yahoo News Test">
+	<classes>
+		<class name="test.YahooNewsTest"/>
+    </classes>
+</test>
+
+<test name="Yahoo Register Test">
+	<classes>
+		<class name="test.YahooRegistrationTest"/>
+    </classes>
+</test>
+
+</suite>
